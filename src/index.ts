@@ -1,13 +1,13 @@
 import { always, pipe, UnaryFunction } from '@kofno/piper';
 
 export interface Ok<A> {
-  kind: 'ok';
-  value: A;
+  readonly kind: 'ok';
+  readonly value: A;
 }
 
 export interface Err<E> {
-  kind: 'err';
-  failure: E;
+  readonly kind: 'err';
+  readonly failure: E;
 }
 
 export type Result<E, A> = Ok<A> | Err<E>;
