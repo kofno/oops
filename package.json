@@ -1,5 +1,5 @@
 {
-  "name": "oops",
+  "name": "@kofno/oops",
   "version": "0.0.0-development",
   "description": "Typescript results library",
   "main": "index.js",
