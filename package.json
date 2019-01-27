@@ -1,0 +1,21 @@
+{
+  "name": "oops",
+  "version": "0.0.0-development",
+  "description": "Typescript results library",
+  "main": "index.js",
+  "author": "Ryan L. Bell <ryan.l.bell@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kofno/piper": "^1.1.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3",
+    "ts-node": "^8.0.2",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  }
+}
